@@ -1,0 +1,27 @@
+PODS:
+  - DataStruct (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DataStruct (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DataStruct:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DataStruct: 12a3d4a87a63c7e955c31a62e4346d6560b5a628
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: ac9ee8fef81b60043cfb483044533713259dee4b
+
+COCOAPODS: 1.5.3

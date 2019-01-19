@@ -26,14 +26,14 @@
 		821CC654EBB3103450AC8390A6EB9130 /* DataStruct-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5AC44099B970074E37E4665D576B582 /* DataStruct-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8774EF5230B297A6AFF24AA1149CBD2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E42EE7321F2D3AB00F9CD33 /* HYStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E42EE6B21F2D3AA00F9CD33 /* HYStack.h */; };
-		9E42EE7421F2D3AB00F9CD33 /* HYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E42EE6C21F2D3AA00F9CD33 /* HYStack.m */; };
-		9E42EE7521F2D3AB00F9CD33 /* HYCircularQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E42EE6D21F2D3AA00F9CD33 /* HYCircularQueue.h */; };
-		9E42EE7621F2D3AB00F9CD33 /* HYPriorityQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E42EE6E21F2D3AB00F9CD33 /* HYPriorityQueue.h */; };
-		9E42EE7721F2D3AB00F9CD33 /* HYLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E42EE6F21F2D3AB00F9CD33 /* HYLinkedList.h */; };
-		9E42EE7821F2D3AB00F9CD33 /* HYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E42EE7021F2D3AB00F9CD33 /* HYLinkedList.m */; };
-		9E42EE7921F2D3AB00F9CD33 /* HYCircularQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E42EE7121F2D3AB00F9CD33 /* HYCircularQueue.m */; };
-		9E42EE7A21F2D3AB00F9CD33 /* HYPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E42EE7221F2D3AB00F9CD33 /* HYPriorityQueue.m */; };
+		9E42EE8321F2D8A000F9CD33 /* HYCircularQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E42EE7B21F2D89F00F9CD33 /* HYCircularQueue.h */; };
+		9E42EE8421F2D8A000F9CD33 /* HYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E42EE7C21F2D89F00F9CD33 /* HYStack.m */; };
+		9E42EE8521F2D8A000F9CD33 /* HYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E42EE7D21F2D89F00F9CD33 /* HYLinkedList.m */; };
+		9E42EE8621F2D8A000F9CD33 /* HYLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E42EE7E21F2D89F00F9CD33 /* HYLinkedList.h */; };
+		9E42EE8721F2D8A000F9CD33 /* HYStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E42EE7F21F2D89F00F9CD33 /* HYStack.h */; };
+		9E42EE8821F2D8A000F9CD33 /* HYCircularQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E42EE8021F2D89F00F9CD33 /* HYCircularQueue.m */; };
+		9E42EE8921F2D8A000F9CD33 /* HYPriorityQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E42EE8121F2D8A000F9CD33 /* HYPriorityQueue.h */; };
+		9E42EE8A21F2D8A000F9CD33 /* HYPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E42EE8221F2D8A000F9CD33 /* HYPriorityQueue.m */; };
 		A3EE51AB0A28AAAD62BF5DB4C54590E5 /* DataStruct-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B151F0924ACBC10AB9882BDE817E9321 /* DataStruct-dummy.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -108,14 +108,14 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		980AB83B2E23721C63FA54C08D2F7A93 /* Pods-DataStruct_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataStruct_Tests-dummy.m"; sourceTree = "<group>"; };
 		9CF3C77EC4F781C3BA42DA4E46D12B99 /* Pods-DataStruct_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DataStruct_Example.modulemap"; sourceTree = "<group>"; };
-		9E42EE6B21F2D3AA00F9CD33 /* HYStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYStack.h; sourceTree = "<group>"; };
-		9E42EE6C21F2D3AA00F9CD33 /* HYStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYStack.m; sourceTree = "<group>"; };
-		9E42EE6D21F2D3AA00F9CD33 /* HYCircularQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCircularQueue.h; sourceTree = "<group>"; };
-		9E42EE6E21F2D3AB00F9CD33 /* HYPriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPriorityQueue.h; sourceTree = "<group>"; };
-		9E42EE6F21F2D3AB00F9CD33 /* HYLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLinkedList.h; sourceTree = "<group>"; };
-		9E42EE7021F2D3AB00F9CD33 /* HYLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLinkedList.m; sourceTree = "<group>"; };
-		9E42EE7121F2D3AB00F9CD33 /* HYCircularQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCircularQueue.m; sourceTree = "<group>"; };
-		9E42EE7221F2D3AB00F9CD33 /* HYPriorityQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPriorityQueue.m; sourceTree = "<group>"; };
+		9E42EE7B21F2D89F00F9CD33 /* HYCircularQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYCircularQueue.h; path = DataStruct/Classes/HYCircularQueue.h; sourceTree = "<group>"; };
+		9E42EE7C21F2D89F00F9CD33 /* HYStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYStack.m; path = DataStruct/Classes/HYStack.m; sourceTree = "<group>"; };
+		9E42EE7D21F2D89F00F9CD33 /* HYLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYLinkedList.m; path = DataStruct/Classes/HYLinkedList.m; sourceTree = "<group>"; };
+		9E42EE7E21F2D89F00F9CD33 /* HYLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYLinkedList.h; path = DataStruct/Classes/HYLinkedList.h; sourceTree = "<group>"; };
+		9E42EE7F21F2D89F00F9CD33 /* HYStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYStack.h; path = DataStruct/Classes/HYStack.h; sourceTree = "<group>"; };
+		9E42EE8021F2D89F00F9CD33 /* HYCircularQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYCircularQueue.m; path = DataStruct/Classes/HYCircularQueue.m; sourceTree = "<group>"; };
+		9E42EE8121F2D8A000F9CD33 /* HYPriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYPriorityQueue.h; path = DataStruct/Classes/HYPriorityQueue.h; sourceTree = "<group>"; };
+		9E42EE8221F2D8A000F9CD33 /* HYPriorityQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYPriorityQueue.m; path = DataStruct/Classes/HYPriorityQueue.m; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		AF3759448AF77380B9D00A9430C074D7 /* Pods-DataStruct_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataStruct_Example-umbrella.h"; sourceTree = "<group>"; };
 		B151F0924ACBC10AB9882BDE817E9321 /* DataStruct-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DataStruct-dummy.m"; sourceTree = "<group>"; };
@@ -323,14 +323,14 @@
 		C07012D8C1773AC61EE10DC8C4E84285 /* DataStruct */ = {
 			isa = PBXGroup;
 			children = (
-				9E42EE6D21F2D3AA00F9CD33 /* HYCircularQueue.h */,
-				9E42EE7121F2D3AB00F9CD33 /* HYCircularQueue.m */,
-				9E42EE6F21F2D3AB00F9CD33 /* HYLinkedList.h */,
-				9E42EE7021F2D3AB00F9CD33 /* HYLinkedList.m */,
-				9E42EE6E21F2D3AB00F9CD33 /* HYPriorityQueue.h */,
-				9E42EE7221F2D3AB00F9CD33 /* HYPriorityQueue.m */,
-				9E42EE6B21F2D3AA00F9CD33 /* HYStack.h */,
-				9E42EE6C21F2D3AA00F9CD33 /* HYStack.m */,
+				9E42EE7B21F2D89F00F9CD33 /* HYCircularQueue.h */,
+				9E42EE8021F2D89F00F9CD33 /* HYCircularQueue.m */,
+				9E42EE7E21F2D89F00F9CD33 /* HYLinkedList.h */,
+				9E42EE7D21F2D89F00F9CD33 /* HYLinkedList.m */,
+				9E42EE8121F2D8A000F9CD33 /* HYPriorityQueue.h */,
+				9E42EE8221F2D8A000F9CD33 /* HYPriorityQueue.m */,
+				9E42EE7F21F2D89F00F9CD33 /* HYStack.h */,
+				9E42EE7C21F2D89F00F9CD33 /* HYStack.m */,
 				92BBD4874A1C9A41307034865A17B59E /* Pod */,
 				6AE04D169A5430FA994BDB1A3E64BC8A /* Support Files */,
 			);
@@ -385,11 +385,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E42EE7721F2D3AB00F9CD33 /* HYLinkedList.h in Headers */,
-				9E42EE7321F2D3AB00F9CD33 /* HYStack.h in Headers */,
+				9E42EE8321F2D8A000F9CD33 /* HYCircularQueue.h in Headers */,
+				9E42EE8621F2D8A000F9CD33 /* HYLinkedList.h in Headers */,
+				9E42EE8721F2D8A000F9CD33 /* HYStack.h in Headers */,
+				9E42EE8921F2D8A000F9CD33 /* HYPriorityQueue.h in Headers */,
 				821CC654EBB3103450AC8390A6EB9130 /* DataStruct-umbrella.h in Headers */,
-				9E42EE7521F2D3AB00F9CD33 /* HYCircularQueue.h in Headers */,
-				9E42EE7621F2D3AB00F9CD33 /* HYPriorityQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,10 +565,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3EE51AB0A28AAAD62BF5DB4C54590E5 /* DataStruct-dummy.m in Sources */,
-				9E42EE7421F2D3AB00F9CD33 /* HYStack.m in Sources */,
-				9E42EE7821F2D3AB00F9CD33 /* HYLinkedList.m in Sources */,
-				9E42EE7A21F2D3AB00F9CD33 /* HYPriorityQueue.m in Sources */,
-				9E42EE7921F2D3AB00F9CD33 /* HYCircularQueue.m in Sources */,
+				9E42EE8421F2D8A000F9CD33 /* HYStack.m in Sources */,
+				9E42EE8521F2D8A000F9CD33 /* HYLinkedList.m in Sources */,
+				9E42EE8A21F2D8A000F9CD33 /* HYPriorityQueue.m in Sources */,
+				9E42EE8821F2D8A000F9CD33 /* HYCircularQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

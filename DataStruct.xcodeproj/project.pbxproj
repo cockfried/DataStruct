@@ -15,6 +15,10 @@
 		9E15339A21E0F77300DED2BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E15339921E0F77300DED2BB /* main.m */; };
 		9E1533A421E0F77300DED2BB /* DataStructTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1533A321E0F77300DED2BB /* DataStructTests.m */; };
 		9E1533AF21E0F77300DED2BB /* DataStructUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1533AE21E0F77300DED2BB /* DataStructUITests.m */; };
+		9E1533C121E0F82000DED2BB /* HYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1533C021E0F82000DED2BB /* HYLinkedList.m */; };
+		9E56265D21EF02150032C12C /* HYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E56265C21EF02150032C12C /* HYStack.m */; };
+		9E87D49521ED8886004E089B /* HYPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E87D49421ED8886004E089B /* HYPriorityQueue.m */; };
+		9E87D49821EED700004E089B /* HYCircularQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E87D49721EED6FF004E089B /* HYCircularQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		9E1533AA21E0F77300DED2BB /* DataStructUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1533AE21E0F77300DED2BB /* DataStructUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructUITests.m; sourceTree = "<group>"; };
 		9E1533B021E0F77300DED2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1533BF21E0F82000DED2BB /* HYLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYLinkedList.h; sourceTree = "<group>"; };
+		9E1533C021E0F82000DED2BB /* HYLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLinkedList.m; sourceTree = "<group>"; };
+		9E56265B21EF02150032C12C /* HYStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStack.h; sourceTree = "<group>"; };
+		9E56265C21EF02150032C12C /* HYStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYStack.m; sourceTree = "<group>"; };
+		9E87D49321ED8886004E089B /* HYPriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYPriorityQueue.h; sourceTree = "<group>"; };
+		9E87D49421ED8886004E089B /* HYPriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPriorityQueue.m; sourceTree = "<group>"; };
+		9E87D49621EED6FF004E089B /* HYCircularQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCircularQueue.h; sourceTree = "<group>"; };
+		9E87D49721EED6FF004E089B /* HYCircularQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCircularQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				9E15339521E0F77300DED2BB /* LaunchScreen.storyboard */,
 				9E15339821E0F77300DED2BB /* Info.plist */,
 				9E15339921E0F77300DED2BB /* main.m */,
+				9E1533BF21E0F82000DED2BB /* HYLinkedList.h */,
+				9E1533C021E0F82000DED2BB /* HYLinkedList.m */,
+				9E87D49321ED8886004E089B /* HYPriorityQueue.h */,
+				9E87D49421ED8886004E089B /* HYPriorityQueue.m */,
+				9E87D49621EED6FF004E089B /* HYCircularQueue.h */,
+				9E87D49721EED6FF004E089B /* HYCircularQueue.m */,
+				9E56265B21EF02150032C12C /* HYStack.h */,
+				9E56265C21EF02150032C12C /* HYStack.m */,
 			);
 			path = DataStruct;
 			sourceTree = "<group>";
@@ -263,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E15338F21E0F77100DED2BB /* ViewController.m in Sources */,
+				9E1533C121E0F82000DED2BB /* HYLinkedList.m in Sources */,
+				9E56265D21EF02150032C12C /* HYStack.m in Sources */,
 				9E15339A21E0F77300DED2BB /* main.m in Sources */,
+				9E87D49521ED8886004E089B /* HYPriorityQueue.m in Sources */,
 				9E15338C21E0F77100DED2BB /* AppDelegate.m in Sources */,
+				9E87D49821EED700004E089B /* HYCircularQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
